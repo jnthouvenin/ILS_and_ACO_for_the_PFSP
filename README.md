@@ -11,9 +11,9 @@ Keywords : <code>Metaheuristics</code> <code>ILS</code> <code>ACO</code> <code>L
 
 - Compilation : <code>$ make program</code>
 - Help : <code>$ ./main</code>
-- Run ACO on an instance : <code>$ ./main --SLS ACO --instance_file ../instances/50_20_01</code>
-- Specify the maximum number of iterations with the parameter max_iterations : <code>$ ./main --SLS ACO --instance_file ../instances/50_20_01 --max_iterations 62</code>
-- To run ILS, just replace ACO by ILS : <code>$ ./main --SLS ILS --instance_file ../instances/50_20_01 --max_iterations 62</code>
+- Run ACO on an instance : <code>$ ./main --SLS ACO --instance_file instances/50_20_01</code>
+- Specify the maximum number of iterations with the parameter max_iterations : <code>$ ./main --SLS ACO --instance_file instances/50_20_01 --max_iterations 62</code>
+- To run ILS, just replace ACO by ILS : <code>$ ./main --SLS ILS --instance_file instances/50_20_01 --max_iterations 62</code>
 - Clean : <code>$ make clean</code>
 
 ## Doc
